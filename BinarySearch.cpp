@@ -76,7 +76,28 @@ void input ()
 
        int low = 0;
        int high = npanjang - 1;
+       do
+       {
+        int mid = (low + high) / 2;
+        if (element[mid] == x)
+        {
+            cout << "\n[] elemen"  << x << " ditemukan pada indeks " << mid << ".\n";
+            return;
+        }
+        if (x < element[mid])
+        {
+            high = mid - 1;
+        }
+        if ( x > element[mid])
+        {
+            low = mid + 1;
+        }
+       }while (low <= high);
+
+       
+       
     }
+
  }
 
 
