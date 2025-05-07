@@ -102,5 +102,12 @@ void input ()
     cin >> ulang;     
     }while (ulang == 'y' || ulang == 'y');
  }
-
+ 
+ int main()
+ {
+    input ();
+    bubbleSortArray();
+    display();
+    binarysearch();
+ }
 
