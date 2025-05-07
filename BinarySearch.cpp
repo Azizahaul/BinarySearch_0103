@@ -44,7 +44,8 @@ void input ()
                 element[j + 1] = temp;
             }
         }
-    }
+        pass++;
+    } while (pass <= npanjang - 1);
  }
 
 
