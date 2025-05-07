@@ -48,4 +48,9 @@ void input ()
     } while (pass <= npanjang - 1);
  }
 
+ void display()
+ {
+
+ }
+
 
