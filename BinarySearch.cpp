@@ -50,7 +50,18 @@ void input ()
 
  void display()
  {
-
+   cout << "\n=============================\n";
+   cout << "    element array setelah diurutkan (asc) \n";
+   cout << "===============================\n";
+   for (int j = 0; j < npanjang; j++)
+   {
+    cout << element[j];
+    if (j < npanjang - 1)
+    {
+        cout << "-->";
+    }
+   }
+   cout << endl;
  }
 
 
